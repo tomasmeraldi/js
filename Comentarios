@@ -1,0 +1,91 @@
+Comentarios de memoria
+
+/* Ejercicio de memoria, estas son las maneras de ESCRIBIR VARIABLES:
+
+var variableVar
+
+Pero se utilizan mas...
+
+let variableLet
+const variableConst = VARIABLE CONSTANTE
+
+LAS VARIABLES TIENEN NOMBRES UNICOS
+
+-- ! PRACTICA ! --
+
+let nombreTomas
+
+nombreTomas = 'Tomas Meraldi'
+
+console.log(nombreTomas)
+
+
+
+ DATOS BOOLEANOS 
+
+let valorVerdadero = true
+let valorNegativo = false
+
+if (true) {
+    console.log('Log desde el IF')
+}
+
+--- "PRUEBA" 1ER PRE-ENTREGA ---
+
+
+
+let nombreUsuario = prompt('🇦🇷 BIENVENIDO A STORE GAMING #1 en ARG, tu usuario por defecto es: ADMIN o USER, ¡no te preocupes por las mayusculas y minusculas!.')
+
+if (nombreUsuario.toUpperCase == 'user'.toLowerCase) {
+    alert('Hola ' + nombreUsuario)  
+} else if (nombreUsuario.toUpperCase == 'admin'.toLowerCase) {
+    alert('Hola ' + nombreUsuario)  
+} else {
+    alert('Nombre de usuario incorrecto')
+}
+
+let compraUsuario = prompt ('Nuestra tienda es para PC gamers armadas y funcionales al 100%, por lo tanto recomendamos estrictamente un presupuesto de $50000 o mas para garantizar calidad. Vamos a pedirte que nos digas con que presupuesto contas para saber como ayudarte.')
+
+if (compraUsuario >= 50000) {
+    alert('Vemos que contas con mas de 50000, prosigamos con las mejores opciones del mercado!')
+} else {
+    alert('No hay problema si estas debajo de los 50000, contamos con opciones competitivas!')
+}
+
+let marcaProcesador = prompt('¿Preferis INTEL o AMD?')
+
+if (marcaProcesador.toUpperCase == 'intel'.toLowerCase) {
+    alert('Muy buena eleccion de tu parte los ' + marcaProcesador)  
+} else if (marcaProcesador.toUpperCase == 'amd'.toLowerCase) {
+    alert('Muy buena eleccion de tu parte los ' + marcaProcesador)  
+} else {
+    alert('Error de tipeo!, intentar nuevamente')
+}
+
+*/
+
+/*
+
+--- "PRUEBA" 1ER PRE-ENTREGA ---
+
+
+// ESTRUCTURA FOR
+
+//for (desde; hasta; actualizacion) {
+//    Codigo a ejecutar en cada vuelta
+//}
+
+
+
+//  FOR UTILIZADO EN TABLA MATEMATICA
+
+let numeroIngresado = Number(prompt('Ingrese cantidad del 1 al 5')) 
+
+for (let i = 1; i <= 5; i++) {
+    let resultado = numeroIngresado * i ;
+    alert(numeroIngresado +" X "+ i +"="+ resultado);
+}
+
+*/
+
+// INTENTO DE PRIMER PRE-ENTREGA CON USUARIO, deje los console logs en conjunto con las alertas por "gusto".//
